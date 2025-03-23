@@ -172,3 +172,14 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# 对于 PyCharm/IntelliJ IDEA
+.idea/
+
+# 对于 VS Code
+.vscode/
+
+# 对于 Eclipse
+.project
+.classpath
+.settings/
