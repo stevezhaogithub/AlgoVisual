@@ -36,3 +36,18 @@ git push -u origin main
 git push
 ```
 
+
+8. 一个人开发自己的项目的 Git 工作流
+
+```bash
+# 开发新功能
+git checkout -b feature/xxx
+# 编写代码并提交
+git add .
+git commit -m "Add xxx feature"
+# 合并到主分支
+git checkout main
+git merge feature/xxx
+# 推送到远程
+git push
+```
