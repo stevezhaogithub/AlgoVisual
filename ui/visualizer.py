@@ -53,7 +53,7 @@ class Visualizer:
                 self.canvas.update()
                 # 暂停 0.5 秒，控制动画速度，使可视化过程更易观察
                 # Pause for 0.5 seconds to control animation speed, making the visualization easier to observe
-                time.sleep(3.0)
+                time.sleep(0.5)
         except ValueError as e:
             # 捕获解包错误，可能是算法未正确返回元组
             # Catch unpacking errors, possibly due to the algorithm not returning a proper tuple

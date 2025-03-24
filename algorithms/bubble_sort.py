@@ -35,6 +35,8 @@ class BubbleSort(BaseAlgorithm):
             # 内层循环，比较相邻元素并交换位置，逐渐减少比较范围
             # Inner loop: Compares adjacent elements and swaps them, gradually reducing the comparison range
             for j in range(n - i - 1):
+                # 第一步：仅比较，不交换，显示两个数字为红色
+                yield (self.data.copy(), [j, j + 1], (0, n - i))
                 # 如果当前元素大于下一个元素，则交换两者位置
                 # If the current element is greater than the next element, swap their positions
                 if self.data[j] > self.data[j + 1]:
